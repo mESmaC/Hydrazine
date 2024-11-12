@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 import argparse
-import sys
 from init import init
 
 
