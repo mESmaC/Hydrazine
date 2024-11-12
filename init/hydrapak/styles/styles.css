@@ -1,0 +1,56 @@
+/* Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* SVG Styles */
+
+svg {
+  width: 200px;
+  height: auto;
+  filter: brightness(0.7) saturate(100%) contrast(110%);
+}
+
+/* Dark Mode Styles */
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+  }
+
+  svg {
+    filter: brightness(0.7) saturate(100%) contrast(90%);
+  }
+}

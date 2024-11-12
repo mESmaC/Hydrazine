@@ -1,0 +1,5 @@
+# Basic dependencies for development and CLI functionality
+argparse>=1.4.0  # For command line argument parsing
+pytest>=7.4.0    # For testing
+setuptools>=65.5.1  # For package management and distribution
+wheel>=0.40.0    # For building wheel distributions
