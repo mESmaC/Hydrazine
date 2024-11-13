@@ -1,5 +1,6 @@
-##Hydrazine Framework
-##Hydrazine is a lightweight web framework and CMS that simplifies the creation and management of dynamic websites and web ##applications. It uses .hdz files for easy content management and allows you to build and organize your components with ##minimal effort.
+## Hydrazine Framework
+
+#### Hydrazine is a lightweight web framework and CMS that simplifies the creation and management of dynamic websites and web applications. It uses .hdz files for easy content management and allows you to build and organize your components with minimal effort.
 
 Installation
 Prerequisites
