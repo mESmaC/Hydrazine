@@ -1,6 +1,7 @@
 <p align="center">
   <img width="300" src="https://github.com/mESmaC/Hydrazine/blob/main/init/hydrapak/assets/hydrazine.svg">
-  # Hydrazine Framework
+  <br/>
+  <h1>Hydrazine Framework</h1>
 </p>
 
 
