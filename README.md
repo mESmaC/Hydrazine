@@ -9,29 +9,33 @@ pip for managing Python packages
 Steps to Get Started
 
 Clone the repository:
-
+```
 git clone https://github.com/mESmaC/Hydrazine.git
 cd hydrazine
+```
 Activate the virtual environment: If you haven’t created a virtual environment yet, do so with:
-
+```
 python -m venv .venv
-
+```
 Then activate it:
 
 Windows:
+```
 .\.venv\Scripts\activate
+```
 
 Mac/Linux:
+```
 source .venv/bin/activate
-
+```
 Install the required dependencies:
-
+```
 pip install -r requirements.txt
-
+```
 Install Hydrazine in editable mode:
-
+```
 pip install -e .
-
+```
 Usage
 After setting up your environment, you can begin creating and compiling projects with Hydrazine.
 
@@ -44,8 +48,9 @@ hydrazine init
 This will create a basic project structure, including configuration and source files.
 
 2. Edit Your Project
-Your project directory will be structured like this:
+Your project directory will be structured like this
 
+```
 /your-project
   /assets/        # Image and asset files
     hydrazine.svg # Example SVG asset
@@ -62,9 +67,10 @@ Your project directory will be structured like this:
   index.html      # Final compiled HTML file
   requirements.txt
   README.md
+```
 The src/ directory (inside hydra/) contains your .hdz files, where you can define and organize your components. assets/ stores images and other assets, while scripts/ and styles/ contain the JS and CSS files used in your project.
 
-3. Compile the Project
+4. Compile the Project
 Once you’ve edited your .hdz files in the hydra/ folder, compile the project to generate the HTML output:
 
 hydrazine compile
@@ -75,20 +81,20 @@ After compiling, you will find the compiled index.html in the project directory.
 
 Example Workflow
 Initialize a new project:
-
+```
 hydrazine init
-
+```
 Edit .hdz files in the hydra/ directory (e.g., index.hdz).
 
 Compile the project:
-
+```
 hydrazine compile
-
+```
 Deploy or open the index.html from the root directory.
 
 Project Structure
 Here is an example structure for your Hydrazine project:
-
+```
 /your-project
   /assets/
     hydrazine.svg          # Example image asset
@@ -106,3 +112,4 @@ Here is an example structure for your Hydrazine project:
   index.html               # Compiled HTML output
   requirements.txt         # Dependencies file
   README.md                # Project documentation
+```
