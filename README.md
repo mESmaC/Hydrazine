@@ -1,8 +1,7 @@
 <p align="center">
   <img width="300" src="https://github.com/mESmaC/Hydrazine/blob/main/init/hydrapak/assets/hydrazine.svg">
-  <br/>
-  <h1>Hydrazine Framework</h1>
 </p>
+<h1 align="center">Hydrazine Framework</h1>
 
 
 #### Hydrazine is a lightweight web framework and CMS that simplifies the creation and management of dynamic websites and web applications. It uses .hdz files for easy content management and allows you to build and organize your components with minimal effort.
