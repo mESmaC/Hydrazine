@@ -1,4 +1,4 @@
-
+![Hydrazine Logo](https://github.com/mESmaC/Hydrazine/blob/main/init/hydrapak/assets/hydrazine.svg)
 
 # Hydrazine Framework
 
