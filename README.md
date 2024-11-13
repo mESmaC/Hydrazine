@@ -11,7 +11,7 @@ Steps to Get Started
 Clone the repository:
 
 git clone https://github.com/mESmaC/Hydrazine.git
-cd https://github.com/mESmaC/Hydrazine.git
+cd hydrazine
 Activate the virtual environment: If you haven’t created a virtual environment yet, do so with:
 
 python -m venv .venv
