@@ -49,6 +49,7 @@ Usage
 After setting up your environment, you can begin creating and compiling projects with Hydrazine.
 
 1. Initialize a New Project
+   
 To initialize a new project, navigate to your project directory and run:
 
 ```
@@ -57,6 +58,7 @@ hydrazine init
 This will create a basic project structure, including configuration and source files.
 
 2. Edit Your Project
+   
 Your project directory will be structured like this
 
 ```
